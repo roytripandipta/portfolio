@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-Static portfolio site for _Your Name_, Principal Software Engineer.
+Static portfolio site for _Tripan Dipta Roy_, Principal Software Engineer.
 
 - Built with plain HTML + CSS
 - Deployed using GitHub Pages
