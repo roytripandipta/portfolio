@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Your Name | Principal Software Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="Principal Software Engineer specializing in system architecture, distributed systems, and AI-driven SaaS platforms."
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-content">
+      <div>
+        <h1>Your Name</h1>
+        <p class="tagline">Principal Software Engineer · System Architecture · Distributed Systems</p>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          Principal Software Engineer focused on designing and scaling backend systems for AI-driven, data-intensive SaaS products.
+          Experienced in system architecture, distributed systems, and building reliable platforms for enterprise customers.
+        </p>
+        <p>
+          Strong hands-on background with Python/Django, Go, React, microservices, message queues, and cloud-native infrastructure.
+          Enjoys working at the intersection of product and engineering to turn complex requirements into simple, robust systems.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <h2>Experience</h2>
+
+        <div class="card">
+          <h3>Principal Software Engineer · Your Company</h3>
+          <p class="meta">Bengaluru, India · 20XX – Present</p>
+          <ul>
+            <li>Own end-to-end architecture for AI-based regulatory/fintech platforms handling high-volume, mission-critical data.</li>
+            <li>Lead backend teams across microservices, data pipelines, and ML/LLM integrations to deliver scalable, resilient systems.</li>
+            <li>Define technical standards for performance, observability, testing, and reliability across services.</li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Senior Backend Engineer · Previous Company</h3>
+          <p class="meta">Location · 20XX – 20XX</p>
+          <ul>
+            <li>Designed and implemented distributed systems for real-time analytics and compliance dashboards.</li>
+            <li>Improved performance and reliability of core services through refactoring, caching, and better data models.</li>
+            <li>Mentored engineers on system design, debugging complex production issues, and best practices.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Selected Projects</h2>
+
+        <div class="card-grid">
+          <article class="card">
+            <h3>Regulatory Data Platform</h3>
+            <p>
+              End-to-end architecture for ingesting, normalizing, and serving large volumes of regulatory data with search, filtering,
+              and graph-style exploration.
+            </p>
+            <p class="meta">
+              Tech: Python, Django, PostgreSQL, Redis, RabbitMQ, OpenSearch, AWS (S3, Athena)
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>LLM/AI Compliance Assistant</h3>
+            <p>
+              Backend for a compliance assistant that uses LLMs and vector search to answer policy and regulatory questions with
+              traceability and guardrails.
+            </p>
+            <p class="meta">
+              Tech: Go/Python services, vector DB, Bedrock/LLM APIs, event-driven microservices
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Real-time Monitoring & Dashboards</h3>
+            <p>
+              WebSocket-based dashboards for tracking pipeline health, data freshness, and SLA adherence across distributed systems.
+            </p>
+            <p class="meta">
+              Tech: React, TypeScript, WebSockets, Redis, Prometheus/Grafana
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>
+          The fastest way to reach out is via email or LinkedIn. Always open to discussing system design, backend architecture,
+          and AI/LLM infrastructure.
+        </p>
+        <ul class="contact-list">
+          <li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
+          <li>LinkedIn: <a href="https://www.linkedin.com/in/your-handle" target="_blank">linkedin.com/in/your-handle</a></li>
+          <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Your Name · Built with GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
